@@ -32,11 +32,11 @@ LOG_CHANNELS = {
 
 APIS = {
     'num': {
-        'url': 'https://openosintx.vippanel.in/num.php?key=Enjoy&number={}',
+        'url': 'https://api.subhxcosmo.in/api?key=SATYAM2&type=mobile&term={}',
         'param': 'number',
         'log': LOG_CHANNELS['num'],
         'desc': 'Mobile number lookup',
-        'extra_blacklist': ['API POWERED BY @FRAPPEASH', '_powered_by']
+        'extra_blacklist': ['owner']
     },
     'ifsc': {
         'url': 'https://abbas-apis.vercel.app/api/ifsc?ifsc={}',
@@ -130,11 +130,11 @@ APIS = {
         'extra_blacklist': ['attempt', 'cached', 'owner', 'proxyUsed']
     },
     'tg2num': {
-        'url': 'https://openosintx.vippanel.in/tginfo.php?key=Enjoy&number={}',
+        'url': 'https://username-to-number.vercel.app/?key=Nothing&q={}',
         'param': 'telegram user ID',
         'log': LOG_CHANNELS['tg2num'],
         'desc': 'Telegram to number lookup',
-        'extra_blacklist': ['credit', 'channel', 'validity']
+        'extra_blacklist': ['channel', 'validity', 'owner', 'admin', 'help_group', 'note', 'response_time', 'your_remaining_today', 'your_usage_today', 'your_limit', 'your_usage']
     },
 }
 
